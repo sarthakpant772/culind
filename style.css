@@ -1,0 +1,32 @@
+body{
+    margin: 0%;
+}
+
+.nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* text-decoration: none; */
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: gray;   
+}
+
+.nav_options{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+/* .disnon{
+    display: none;
+} */
+.page{
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
