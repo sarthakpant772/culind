@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&display=swap" rel="stylesheet">
     <title>ParamparaचSanskriti</title>
 </head>
 
@@ -75,33 +76,35 @@
         <a href="#" class="nav_options">Add More Locations</a>
         <a href="#" class="nav_options">Contact Us</a>
         <a href="#" class="nav_options">Contribute</a>
+        <a href="login.html" class="nav_options">Login</a>
     </nav>
     <!-- home page -->
 
 
-    <section>
-        <div class="homepage">
-            <div class="page main">
-                <h1 class="headding">Jammu & Kashmir</h1>
-                <a class="link">&#8594;</a>
-            </div>
-            <div class="page main">
-                <h1 class="headding">Nagaland</h1>
-                <a class="link">arrow</a>
-            </div>
-            <div class="page main">
-                <h1 class="headding">Uttar Pradesh</h1>
-                <a class="link">arrow</a>
-            </div>
-            <div class="page main">
-                <h1 class="headding main">Hymanchal pradesh</h1>
-                <a class="link">arrow</a>
-            </div>
-            <div class="page main">
-                <h1 class="headding">Maharashtra</h1>
-                <a class="link">arrow</a>
-            </div>
-    </section>
+    <div id="homepage">
+        <div id="jnk">
+            <a href="#"><h1>Jammu and Kashmir</h1></a>
+            <div class="tenor-gif-embed" data-postid="4754451" data-share-method="host" data-aspect-ratio="1.77936" data-width="75%"><a href="https://tenor.com/view/winter-season-snowing-snow-cold-gif-4754451">Snow Falling GIF</a>from <a href="https://tenor.com/search/winter+season-gifs">Winter Season GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+        <div id="mah">
+            <a href="#"><h1>Maharashtra</h1></a>
+            <div class="tenor-gif-embed" data-postid="21476197" data-share-method="host" data-aspect-ratio="1" data-width="75%"><a href="https://tenor.com/view/sunset-metro-manila-philippines-pasig-gif-21476197">Sunset Metro GIF</a>from <a href="https://tenor.com/search/sunset-gifs">Sunset GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+        <div id="nag">
+            <a href="#"><h1>Nagaland</h1></a>
+            <div class="tenor-gif-embed" data-postid="9559017" data-share-method="host" data-aspect-ratio="1.78808" data-width="75%"><a href="https://tenor.com/view/twin-peaks-twin-peaks-the-return-twin-peaks-series-twin-peaks-gifs-part15-gif-9559017">Washington State GIF</a>from <a href="https://tenor.com/search/twin+peaks-gifs">Twin Peaks GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+        <div id="hp">
+            <a href="#"><h1>Himachal Pradesh</h1></a>
+            <div class="tenor-gif-embed" data-postid="6200016" data-share-method="host" data-aspect-ratio="1.85185" data-width="75%"><a href="https://tenor.com/view/snow-mountain-gif-6200016">Snow Mountain GIF</a>from <a href="https://tenor.com/search/snow-gifs">Snow GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+        <div id="up">
+            <a href="#"><h1>Uttar Pradesh</h1></a>
+            <div class="tenor-gif-embed" data-postid="15070813" data-share-method="host" data-aspect-ratio="1.47465" data-width="75%"><a href="https://tenor.com/view/taj-mahal-india-castle-gif-15070813">Taj Mahal India GIF</a>from <a href="https://tenor.com/search/taj+mahal-gifs">Taj Mahal GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+    </div>
+
+
     <script>
         var slideIndex = 0;
         showSlides();
@@ -119,11 +122,10 @@
                 dots[i].className = dots[i].className.replace("active", "");
             }
             slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
+            dots[slideIndex - 1].className += " active"; //an additional classname will be added
             setTimeout(showSlides, 3000);
-        } // Change image every 2 seconds
+        } // Change image every 3 seconds
     </script>
 
 </body>
-
 </html>

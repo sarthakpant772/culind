@@ -40,16 +40,6 @@ body {
     animation-duration: 5s;
 }
 
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
 @keyframes fade {
     from {
         opacity: .4
@@ -81,9 +71,6 @@ a:hover {
     background-color: rgb(47, 121, 75);
 }
 
-/* .disnon{
-display: none;
-} */
 .mainpage1{
     display: flex;
     font-family: 'Mr Dafoe';
@@ -110,7 +97,7 @@ display: none;
     text-shadow: 0 0 0.05em #fff, 0 0 0.2em #138808, 0 0 0.3em #138808;
 }
 
-.page {
+/* .page {
     width: 100%;
     height: 100vh;
 }
@@ -119,4 +106,25 @@ display: none;
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+#homepage{
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 50px;
+}
+
+.tenor-gif-embed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homepage a{
+    color: goldenrod;
+}
+
+#homepage a:hover{
+    color: rgb(160, 115, 0);
 }
