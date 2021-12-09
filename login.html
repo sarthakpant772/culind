@@ -8,13 +8,40 @@
     <title>Login</title>
 </head>
 <style>
+    .mainpage1 {
+        display: flex;
+        font-family: 'Mr Dafoe';
+        font-size: 4.2em;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: -1.5em;
+        margin-bottom: -1em;
+    }
+
+    #saffron {
+        display: inline;
+        text-shadow: 0 0 0.05em #fff, 0 0 0.2em #FF9933, 0 0 0.3em #FF9933;
+    }
+
+    #blue {
+        display: inline;
+        text-shadow: 0 0 0.05em #fff, 0 0 0.2em #000080, 0 0 0.3em #000080;
+    }
+
+    #green {
+        display: inline;
+        text-shadow: 0 0 0.05em #fff, 0 0 0.2em #138808, 0 0 0.3em #138808;
+    }
+
     #logform {
 
         position: relative;
         z-index: 1;
         background: #FFFFFF;
         max-width: 360px;
-        margin: 0 auto 100px;
+        margin: auto;
+        margin-top: 5%;
         padding: 10px;
         text-align: center;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -29,9 +56,23 @@
         width: 100%;
         height: 35px;
     }
+
+    button a {
+        color: black;
+        text-decoration: none;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
 </style>
 
 <body>
+    <div class="mainpage1">
+        <h1 id="saffron">Parampara</h1>
+        <h1 id="blue">च</h1>
+        <h1 id="green">Sanskriti</h1>
+    </div>
     <form id="logform">
         <h1>LOGIN</h1>
         <label for="uname">Username :</label>
@@ -47,17 +88,11 @@
         <button type="submit" form="logform">LOGIN</button>
         <br>
         <br>
+        <button><a href="culind.html">Home Page</a></button>
+        <br>
+        <br>
         <p class="message">Not registered? <a href="signup.html">Create an account</a></p>
     </form>
-    <script>
-        function open() {
-            document.getElementById("logform").style.display = "block";
-        }
-
-        function closeForm() {
-            document.getElementById("logform").style.display = "none";
-        }
-    </script>
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,70 @@
     <title>Sign Up</title>
 </head>
 <style>
-#signform {
-  position: relative;
-  z-index: 1;
-  background: #FFFFFF;
-  max-width: 360px;
-  margin: 0 auto 100px;
-  padding: 10px;
-  text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-body{
-    background-color: #75a3a3;
-}
-button{
-    background-color: #75a3a3;
-    width: 100%;
-    height: 35px;
-}
+    .mainpage1 {
+        display: flex;
+        font-family: 'Mr Dafoe';
+        font-size: 4.2em;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: -1.5em;
+        margin-bottom: -1em;
+    }
+
+    #saffron {
+        display: inline;
+        text-shadow: 0 0 0.05em #fff, 0 0 0.2em #FF9933, 0 0 0.3em #FF9933;
+    }
+
+    #blue {
+        display: inline;
+        text-shadow: 0 0 0.05em #fff, 0 0 0.2em #000080, 0 0 0.3em #000080;
+    }
+
+    #green {
+        display: inline;
+        text-shadow: 0 0 0.05em #fff, 0 0 0.2em #138808, 0 0 0.3em #138808;
+    }
+
+    #signform {
+        position: relative;
+        z-index: 1;
+        background: #FFFFFF;
+        max-width: 360px;
+        margin: auto;
+        margin-top: 5%;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+
+    body {
+        background-color: #75a3a3;
+    }
+
+    button {
+        background-color: #75a3a3;
+        width: 100%;
+        height: 35px;
+    }
+
+    button a {
+        color: black;
+        text-decoration: none;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
 </style>
+
 <body>
+    <div class="mainpage1">
+        <h1 id="saffron">Parampara</h1>
+        <h1 id="blue">च</h1>
+        <h1 id="green">Sanskriti</h1>
+    </div>
     <form id="signform">
         <h1>SIGN UP</h1>
         <label for="uname">Username :</label>
@@ -42,7 +87,11 @@ button{
         <button type="submit" form="signform">Sign Up</button>
         <br>
         <br>
+        <button><a href="culind.html">Home Page</a></button>
+        <br>
+        <br>
         <p class="message">Already have an account? <a href="login.html">Login</a></p>
     </form>
 </body>
+
 </html>
