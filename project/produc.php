@@ -2,6 +2,8 @@
 <html>
   
 <head>
+<link rel="stylesheet" href="product_input.css">
+
     <title>Product</title>
 </head>
   
@@ -28,6 +30,13 @@
           
         mysqli_close($conn);
         ?>
+
+    <div class="page">
+        <div class="errorblock">
+            <p class="text">To confirm your input</p>
+            <a href="index.html" class="text">Click here</a>
+        </div>
+    </div>
     </center>
 </body> 
 </html>
