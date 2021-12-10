@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,700">
 <head>
 <link rel="stylesheet" href="product_input.css">
 

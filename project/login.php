@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SignUp</title>
 </head>
 
 <style>
 
 body{
+    font-family: 'Rubik', sans-serif;
     width:100%;
     height:100vh;
     display:flex;
@@ -30,7 +31,7 @@ body{
 
 }
 .text{
-    
+    font-family: 'Rubik', sans-serif;
     font-size: xx-large;
     color: #f2f2f2;
     color: wheat;
@@ -40,6 +41,7 @@ body{
 }
 
 .text2{
+  font-family: 'Rubik', sans-serif;
   font-size:large;
   
 }
