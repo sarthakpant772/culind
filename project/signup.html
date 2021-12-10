@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    #logform {
+
+        position: relative;
+        z-index: 1;
+        background: #FFFFFF;
+        max-width: 360px;
+        margin: 0 auto 100px;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+
+    body {
+        background-color: #75a3a3;
+    }
+
+    button {
+        background-color: #75a3a3;
+        width: 100%;
+        height: 35px;
+    }
+</style>
+
+<body>
+    
+    <form id="logform" action="signup.php" method="POST">
+        <h1>LOGIN</h1>
+        <label for="uname">Username :</label>
+        <br>
+        <input type="text" id="uname" placeholder="USERNAME" name="username">
+        <br>
+        <br>
+        <label for="pword">Password :</label>
+        <br>
+        <input type="text" id="pword" placeholder="PASSWORD" name="password">
+        <br>
+        <br>
+        <button type="submit" form="logform">SIGNUP</button>
+        <br>
+        <br>
+        <p class="message">Not registered? <a href="login.php">Create an account</a></p>
+    </form>
+    <script>
+        function open() {
+            document.getElementById("logform").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("logform").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
